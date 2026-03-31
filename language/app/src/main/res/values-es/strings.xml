@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Aplicación de Soporte de Idioma</string>
+    <string name="welcome_message">¡Bienvenido a la Aplicación de Soporte de Idioma!</string>
+    <string name="instruction">Cambie el idioma de su dispositivo para ver las traducciones</string>
+    <string name="current_language">Idioma Actual: Español</string>
+    <string name="change_language">Cambiar Idioma</string>
+    <string name="features_title">Características de la Aplicación:</string>
+    <string name="feature_1">• Soporte multilingüe</string>
+    <string name="feature_2">• Detección automática de configuración regional</string>
+    <string name="feature_3">• Fácil agregar nuevos idiomas</string>
+</resources>

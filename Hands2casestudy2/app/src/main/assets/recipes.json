@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "title": "Pizza",
+    "imageUrl": "Pizza",
+    "ingredients": ["Flour", "Cheese", "Tomato Sauce"],
+    "instructions": ["Prepare dough", "Add toppings", "Bake in oven"]
+  },
+  {
+    "id": 2,
+    "title": "Burger",
+    "imageUrl": "burger",
+    "ingredients": ["Bun", "Patty", "Lettuce"],
+    "instructions": ["Cook patty", "Add vegetables", "Serve"]
+  }
+]

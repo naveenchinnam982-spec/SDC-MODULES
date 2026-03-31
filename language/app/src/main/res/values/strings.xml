@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Language Support App</string>
+    <string name="welcome_message">Welcome to Language Support App!</string>
+    <string name="instruction">Change your device language to see translations</string>
+    <string name="current_language">Current Language: English</string>
+    <string name="change_language">Change Language</string>
+    <string name="features_title">App Features:</string>
+    <string name="feature_1">• Multi-language support</string>
+    <string name="feature_2">• Automatic locale detection</string>
+    <string name="feature_3">• Easy to add new languages</string>
+</resources>

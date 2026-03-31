@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- 🔹 LINEAR LAYOUT SECTION -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Linear Layout Example"
+            android:textStyle="bold"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:id="@+id/linearSection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="12dp"
+            android:background="#E3F2FD"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:id="@+id/tvLinear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hello World"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btnLinear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Change Text"
+                android:layout_marginTop="10dp"/>
+        </LinearLayout>
+
+
+        <!-- 🔹 RELATIVE LAYOUT SECTION -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Relative Layout Example"
+            android:textStyle="bold"
+            android:textSize="18sp" />
+
+        <RelativeLayout
+            android:id="@+id/relativeSection"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="#FFF3E0"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:id="@+id/tvRelative"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hello World"
+                android:textSize="20sp"
+                android:layout_centerInParent="true" />
+
+            <Button
+                android:id="@+id/btnRelative"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Change Text"
+                android:layout_below="@id/tvRelative"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"/>
+        </RelativeLayout>
+
+
+        <!-- 🔹 CONSTRAINT LAYOUT SECTION -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Constraint Layout Example"
+            android:textStyle="bold"
+            android:textSize="18sp" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintSection"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="#E8F5E9"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:id="@+id/tvConstraint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hello World"
+                android:textSize="20sp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toTopOf="@id/btnConstraint"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <Button
+                android:id="@+id/btnConstraint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Change Text"
+                app:layout_constraintTop_toBottomOf="@id/tvConstraint"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginTop="10dp"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+</ScrollView>

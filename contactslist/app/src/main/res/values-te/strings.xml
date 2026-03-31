@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">నా కుటుంబ సర్కిల్</string>
+    <string name="add_relative">బంధువును జోడించండి</string>
+    <string name="edit_relative">బంధువును సవరించండి</string>
+    <string name="full_name">పూర్తి పేరు</string>
+    <string name="relation">సంబంధం</string>
+    <string name="phone_number">ఫోన్ నంబర్</string>
+    <string name="city_town">నగరం / పట్టణం</string>
+    <string name="state_country">రాష్ట్రం / దేశం</string>
+    <string name="whatsapp_email">వాట్సాప్ / ఈమెయిల్ (ఐచ్ఛికం)</string>
+    <string name="save">సేవ్ చేయండి</string>
+    <string name="search_hint">పేరు, సంబంధం లేదా నగరం ద్వారా వెతకండి...</string>
+    <string name="empty_state_msg">మీ మొదటి బంధువును జోడించండి!</string>
+    <string name="confirm_delete">మీరు ఖచ్చితంగా ఈ కాంటాక్ట్‌ని తొలగించాలనుకుంటున్నారా?</string>
+    <string name="yes">అవును</string>
+    <string name="no">లేదు</string>
+    <string name="whatsapp_not_installed">వాట్సాప్ ఇన్‌స్టాల్ చేయబడలేదు</string>
+    <string name="field_required">ఈ ఫీల్డ్ తప్పనిసరి</string>
+</resources>

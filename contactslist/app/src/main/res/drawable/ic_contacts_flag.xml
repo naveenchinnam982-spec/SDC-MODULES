@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="100dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    
+    <!-- Person silhouette (themed color) -->
+    <path
+        android:fillColor="#E6B17A"
+        android:pathData="M35,30m-8,0a8,8 0,1 1,16 0a8,8 0,1 1,-16 0" />
+    <path
+        android:fillColor="#E6B17A"
+        android:pathData="M25,40h20v25h-20z" />
+    <path
+        android:fillColor="#E6B17A"
+        android:pathData="M20,40h5v15h-5z M45,40h12v5h-12z" />
+    
+    <!-- Flag Pole -->
+    <path
+        android:fillColor="#E6B17A"
+        android:pathData="M57,15h2v70h-2z" />
+        
+    <!-- Waving Indian Flag -->
+    <!-- Saffron Stripe -->
+    <path
+        android:fillColor="#FF9933"
+        android:pathData="M59,15 Q70,10 80,15 T95,15 L95,25 Q85,20 75,25 T59,25 Z" />
+    <!-- White Stripe -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M59,25 Q70,20 80,25 T95,25 L95,35 Q85,30 75,35 T59,35 Z" />
+    <!-- Green Stripe -->
+    <path
+        android:fillColor="#138808"
+        android:pathData="M59,35 Q70,30 80,35 T95,35 L95,45 Q85,40 75,45 T59,45 Z" />
+        
+    <!-- Detailed Ashoka Chakra -->
+    <path
+        android:fillColor="#000080"
+        android:pathData="M77,30a3,3 0,1 1,6 0a3,3 0,1 1,-6 0 M80,27.5v5 M77.5,30h5" />
+        
+</vector>

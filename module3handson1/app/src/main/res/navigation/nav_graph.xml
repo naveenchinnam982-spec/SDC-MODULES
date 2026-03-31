@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="project.module_3handson1.HomeFragment"
+        android:label="Home">
+        <action
+            android:id="@+id/action_homeFragment_to_dashboardFragment"
+            app:destination="@id/dashboardFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_settings_graph"
+            app:destination="@id/settings_graph" />
+        <action
+            android:id="@+id/action_homeFragment_to_profileDetailFragment"
+            app:destination="@id/profileDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="project.module_3handson1.DashboardFragment"
+        android:label="Dashboard" />
+
+    <include app:graph="@navigation/settings_graph" />
+
+</navigation>

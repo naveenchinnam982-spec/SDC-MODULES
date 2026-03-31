@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Dynamic Form Builder</string>
+    <string name="submit_form">Submit Form</string>
+</resources>

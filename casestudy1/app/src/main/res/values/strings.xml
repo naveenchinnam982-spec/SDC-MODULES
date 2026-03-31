@@ -1,0 +1,17 @@
+<resources>
+
+    <string name="app_name">CaseStudy1</string>
+
+    <string name="hello_linear">Hello World (LinearLayout)</string>
+    <string name="hello_relative">Hello World (RelativeLayout)</string>
+    <string name="hello_constraint">Hello World (ConstraintLayout)</string>
+
+    <string name="linear_updated">Linear Layout Updated!</string>
+    <string name="relative_updated">Relative Positioned!</string>
+    <string name="constraint_updated">Constraints Met!</string>
+
+    <string name="btn_click">Click Me</string>
+    <string name="btn_press">Press Me</string>
+    <string name="btn_update">Update UI</string>
+
+</resources>

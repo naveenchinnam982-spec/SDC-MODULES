@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="40dp"
+    android:height="40dp"
+    android:viewportWidth="40"
+    android:viewportHeight="40">
+    <!-- Small subtle plus icon for the background pattern -->
+    <path
+        android:fillColor="#10FFFFFF"
+        android:pathData="M21,19h4v2h-4v4h-2v-4h-4v-2h4v-4h2v4Z" />
+</vector>

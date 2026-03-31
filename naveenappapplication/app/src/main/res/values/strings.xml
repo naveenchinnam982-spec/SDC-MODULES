@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Custom UI Library</string>
+    <string name="app_title">Custom UI Component Library</string>
+    <string name="button_examples">Styled Button Examples</string>
+    <string name="success_button">Success Button</string>
+    <string name="warning_button">Warning Button</string>
+</resources>

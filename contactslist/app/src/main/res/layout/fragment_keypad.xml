@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <!-- Top Action Bar -->
+    <RelativeLayout
+        android:id="@+id/topBar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:paddingHorizontal="16dp"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/btnSearch"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="48dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:padding="8dp"
+            android:src="@android:drawable/ic_menu_search"
+            app:tint="@color/black" />
+
+        <ImageView
+            android:id="@+id/btnMenu"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:padding="8dp"
+            android:src="@android:drawable/ic_menu_manage"
+            app:tint="@color/black" />
+    </RelativeLayout>
+
+    <!-- Number Display -->
+    <EditText
+        android:id="@+id/etPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:inputType="none"
+        android:textColor="@color/black"
+        android:textSize="42sp"
+        app:layout_constraintTop_toBottomOf="@id/topBar" />
+
+    <!-- Grid Container -->
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:columnCount="3"
+        android:paddingHorizontal="32dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnCallManual"
+        app:layout_constraintTop_toBottomOf="@id/etPhoneNumber"
+        app:layout_constraintVertical_bias="0.5">
+
+        <LinearLayout android:id="@+id/btn1" android:layout_width="0dp" android:layout_height="80dp" android:layout_columnWeight="1" android:background="?attr/selectableItemBackground" android:gravity="center" android:orientation="vertical">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1" android:textColor="@color/black" android:textSize="32sp" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="oo" android:textColor="#888888" android:textSize="10sp" />
+        </LinearLayout>
+
+        <LinearLayout android:id="@+id/btn2" android:layout_width="0dp" android:layout_height="80dp" android:layout_columnWeight="1" android:background="?attr/selectableItemBackground" android:gravity="center" android:orientation="vertical">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2" android:textColor="@color/black" android:textSize="32sp" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ABC" android:textColor="#888888" android:textSize="10sp" />
+        </LinearLayout>
+
+        <LinearLayout android:id="@+id/btn3" android:layout_width="0dp" android:layout_height="80dp" android:layout_columnWeight="1" android:background="?attr/selectableItemBackground" android:gravity="center" android:orientation="vertical">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="3" android:textColor="@color/black" android:textSize="32sp" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="DEF" android:textColor="#888888" android:textSize="10sp" />
+        </LinearLayout>
+
+        <LinearLayout android:id="@+id/btn4" android:layout_width="0dp" android:layout_height="80dp" android:layout_columnWeight="1" android:background="?attr/selectableItemBackground" android:gravity="center" android:orientation="vertical">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="4" android:textColor="@color/black" android:textSize="32sp" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="GHI" android:textColor="#888888" android:textSize="10sp" />
+        </LinearLayout>
+
+        <LinearLayout android:id="@+id/btn5" android:layout_width="0dp" android:layout_height="80dp" android:layout_columnWeight="1" android:background="?attr/selectableItemBackground" android:gravity="center" android:orientation="vertical">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="5" android:textColor="@color/black" android:textSize="32sp" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="JKL" android:textColor="#888888" android:textSize="10sp" />
+        </LinearLayout>
+
+        <LinearLayout android:id="@+id/btn6" android:layout_width="0dp" android:layout_height="80dp" android:layout_columnWeight="1" android:background="?attr/selectableItemBackground" android:gravity="center" android:orientation="vertical">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="6" android:textColor="@color/black" android:textSize="32sp" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="MNO" android:textColor="#888888" android:textSize="10sp" />
+        </LinearLayout>
+
+        <LinearLayout android:id="@+id/btn7" android:layout_width="0dp" android:layout_height="80dp" android:layout_columnWeight="1" android:background="?attr/selectableItemBackground" android:gravity="center" android:orientation="vertical">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="7" android:textColor="@color/black" android:textSize="32sp" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="PQRS" android:textColor="#888888" android:textSize="10sp" />
+        </LinearLayout>
+
+        <LinearLayout android:id="@+id/btn8" android:layout_width="0dp" android:layout_height="80dp" android:layout_columnWeight="1" android:background="?attr/selectableItemBackground" android:gravity="center" android:orientation="vertical">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="8" android:textColor="@color/black" android:textSize="32sp" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TUV" android:textColor="#888888" android:textSize="10sp" />
+        </LinearLayout>
+
+        <LinearLayout android:id="@+id/btn9" android:layout_width="0dp" android:layout_height="80dp" android:layout_columnWeight="1" android:background="?attr/selectableItemBackground" android:gravity="center" android:orientation="vertical">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="9" android:textColor="@color/black" android:textSize="32sp" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="WXYZ" android:textColor="#888888" android:textSize="10sp" />
+        </LinearLayout>
+
+        <LinearLayout android:id="@+id/btnStar" android:layout_width="0dp" android:layout_height="80dp" android:layout_columnWeight="1" android:background="?attr/selectableItemBackground" android:gravity="center">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="*" android:textColor="@color/black" android:textSize="32sp" />
+        </LinearLayout>
+
+        <LinearLayout android:id="@+id/btn0" android:layout_width="0dp" android:layout_height="80dp" android:layout_columnWeight="1" android:background="?attr/selectableItemBackground" android:gravity="center" android:orientation="vertical">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" android:textColor="@color/black" android:textSize="32sp" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="+" android:textColor="#888888" android:textSize="10sp" />
+        </LinearLayout>
+
+        <LinearLayout android:id="@+id/btnHash" android:layout_width="0dp" android:layout_height="80dp" android:layout_columnWeight="1" android:background="?attr/selectableItemBackground" android:gravity="center">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="#" android:textColor="@color/black" android:textSize="32sp" />
+        </LinearLayout>
+
+    </GridLayout>
+
+    <!-- Call Actions -->
+    <LinearLayout
+        android:id="@+id/callActions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/btnVideoCall"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginEnd="24dp"
+            android:background="@drawable/circle_blue"
+            android:elevation="4dp"
+            android:padding="18dp"
+            android:src="@drawable/ic_video_white"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/btnCallManual"
+            android:layout_width="76dp"
+            android:layout_height="76dp"
+            android:background="@drawable/circle_green"
+            android:elevation="4dp"
+            android:padding="22dp"
+            android:src="@drawable/ic_call_handset" />
+
+        <ImageView
+            android:id="@+id/btnDeleteDigit"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginStart="24dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:padding="18dp"
+            android:src="@drawable/ic_backspace_black"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

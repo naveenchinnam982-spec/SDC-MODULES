@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp">
+
+    <!-- Open Website Button -->
+    <Button
+        android:id="@+id/btnWebsite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Website"/>
+
+    <!-- Share Text Button -->
+    <Button
+        android:id="@+id/btnShare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Share Text"
+        android:layout_marginTop="20dp"/>
+
+    <!-- Send Email Button -->
+    <Button
+        android:id="@+id/btnEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Email"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>

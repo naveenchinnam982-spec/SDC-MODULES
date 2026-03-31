@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#2c1a0e</color>
+    <color name="accent">#c8703a</color>
+    <color name="background">#fdf6ee</color>
+    <color name="card_background">#fffaf4</color>
+    <color name="call_green">#4a7c59</color>
+    <color name="whatsapp_green">#25D366</color>
+    <color name="text_primary">#2c1a0e</color>
+    <color name="text_secondary">#6b4226</color>
+    <color name="white">#FFFFFF</color>
+    <color name="golden">#FFD700</color>
+    <color name="black">#000000</color>
+    <color name="divider">#EEEEEE</color>
+    
+    <!-- Sky colors for Realistic Splash -->
+    <color name="sky_blue_light">#87CEEB</color>
+    <color name="sky_blue_dark">#1E90FF</color>
+    
+    <!-- Dashboard specific -->
+    <color name="header_start">#3E2723</color>
+    <color name="header_end">#5D4037</color>
+    <color name="subtitle_color">#D7CCC8</color>
+    <color name="badge_bg">#eee4d5</color>
+    <color name="search_border">#E0D0B0</color>
+
+    <!-- Gradient colors for avatars -->
+    <color name="avatar_1_start">#FF9A9E</color>
+    <color name="avatar_1_end">#FAD0C4</color>
+    <color name="avatar_2_start">#A18CD1</color>
+    <color name="avatar_2_end">#FBC2EB</color>
+    <color name="avatar_3_start">#84FAB0</color>
+    <color name="avatar_3_end">#8FD3F4</color>
+    <color name="avatar_4_start">#F6D365</color>
+    <color name="avatar_4_end">#FDA085</color>
+    <color name="avatar_5_start">#A6C0FE</color>
+    <color name="avatar_5_end">#F68084</color>
+    <color name="avatar_6_start">#EE9CA7</color>
+    <color name="avatar_6_end">#FFDDE1</color>
+</resources>

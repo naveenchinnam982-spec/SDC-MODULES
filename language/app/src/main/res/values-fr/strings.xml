@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Application de Support Linguistique</string>
+    <string name="welcome_message">Bienvenue dans l\'Application de Support Linguistique!</string>
+    <string name="instruction">Changez la langue de votre appareil pour voir les traductions</string>
+    <string name="current_language">Langue Actuelle: Français</string>
+    <string name="change_language">Changer de Langue</string>
+    <string name="features_title">Fonctionnalités de l\'Application:</string>
+    <string name="feature_1">• Support multilingue</string>
+    <string name="feature_2">• Détection automatique des paramètres régionaux</string>
+    <string name="feature_3">• Facile d\'ajouter de nouvelles langues</string>
+</resources>

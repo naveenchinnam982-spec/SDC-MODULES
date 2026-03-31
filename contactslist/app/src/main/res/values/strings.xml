@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">My Family Circle</string>
+    <string name="add_relative">Add Relative</string>
+    <string name="edit_relative">Edit Relative</string>
+    <string name="full_name">Full Name</string>
+    <string name="relation">Relation</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="city_town">City / Town</string>
+    <string name="state_country">State / Country</string>
+    <string name="whatsapp_email">WhatsApp / Email (optional)</string>
+    <string name="birthday">Birthday (e.g. 15 Jan)</string>
+    <string name="notes">Notes / Special Message</string>
+    <string name="save">SAVE</string>
+    <string name="search_hint">Search by name, relation or city...</string>
+    <string name="empty_state_msg">Add your first relative!</string>
+    <string name="confirm_delete">Are you sure you want to delete this contact?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="whatsapp_not_installed">WhatsApp not installed</string>
+    <string name="field_required">This field is required</string>
+    <string name="sms">SMS</string>
+</resources>

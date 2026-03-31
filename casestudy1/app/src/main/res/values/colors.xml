@@ -1,0 +1,13 @@
+<resources>
+
+    <color name="bg_linear">#E3F2FD</color>
+    <color name="bg_relative">#E8F5E9</color>
+    <color name="bg_constraint">#FFFDE7</color>
+
+    <color name="text_primary">#212121</color>
+
+    <color name="btn_linear">#1976D2</color>
+    <color name="btn_relative">#388E3C</color>
+    <color name="btn_constraint">#FBC02D</color>
+
+</resources>

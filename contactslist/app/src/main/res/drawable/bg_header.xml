@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Base Gradient -->
+    <item>
+        <shape>
+            <gradient
+                android:startColor="#3E2723"
+                android:endColor="#5D4037"
+                android:angle="270"/>
+        </shape>
+    </item>
+    <!-- Pattern Overlay (Using tiled bitmap of a small PNG or simplified drawable) -->
+    <!-- Note: Removing the vector-bitmap tile to prevent crash, 
+         using a solid overlay for better stability -->
+    <item>
+        <shape>
+            <solid android:color="#10FFFFFF"/>
+        </shape>
+    </item>
+</layer-list>

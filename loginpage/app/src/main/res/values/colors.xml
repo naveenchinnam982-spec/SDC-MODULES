@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    
+    <!-- Instagram Palette -->
+    <color name="insta_pink">#E1306C</color>
+    <color name="insta_purple">#833AB4</color>
+    <color name="insta_orange">#F56040</color>
+    <color name="insta_yellow">#FCAF45</color>
+    <color name="insta_blue">#0095f6</color>
+    
+    <color name="background_light">#FAFAFA</color>
+    <color name="text_primary">#262626</color>
+    <color name="text_secondary">#8E8E8E</color>
+
+    <color name="purple_500">#E1306C</color>
+    <color name="purple_700">#833AB4</color>
+    <color name="teal_200">#0095f6</color>
+</resources>

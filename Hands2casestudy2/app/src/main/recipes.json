@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Pizza",
+    "image": "https://i.imgur.com/2DhmtJ4.jpg",
+    "ingredients": ["Flour", "Cheese", "Tomato Sauce"],
+    "steps": ["Prepare dough", "Add toppings", "Bake in oven"]
+  },
+  {
+    "name": "Burger",
+    "image": "https://i.imgur.com/0umadnY.jpg",
+    "ingredients": ["Bun", "Patty", "Lettuce"],
+    "steps": ["Cook patty", "Add vegetables", "Serve"]
+  }
+]

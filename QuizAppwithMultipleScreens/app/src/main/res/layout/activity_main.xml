@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="@drawable/gradient_bg">
+
+    <TextView
+        android:id="@+id/tvTimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00:30"
+        android:textColor="#FFD600"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="32dp"
+        android:padding="8dp"
+        android:background="#33000000"/>
+
+    <TextView
+        android:id="@+id/tvQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Question text here"
+        android:textColor="#FFFFFF"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="40dp"
+        android:shadowColor="#000000"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="2"/>
+
+    <Button
+        android:id="@+id/btnOpt1"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#FFFFFF"
+        android:textColor="#6200EE"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        style="@style/Widget.MaterialComponents.Button.UnelevatedButton"/>
+
+    <Button
+        android:id="@+id/btnOpt2"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#FFFFFF"
+        android:textColor="#6200EE"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        style="@style/Widget.MaterialComponents.Button.UnelevatedButton"/>
+
+    <Button
+        android:id="@+id/btnOpt3"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:backgroundTint="#FFFFFF"
+        android:textColor="#6200EE"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        style="@style/Widget.MaterialComponents.Button.UnelevatedButton"/>
+
+</LinearLayout>
